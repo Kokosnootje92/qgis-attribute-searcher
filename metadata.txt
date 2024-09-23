@@ -21,9 +21,9 @@ about=This plugin searches for a value in an user-specified attribute through a 
 
 version=1.0
 
-tracker=http://bugs
+tracker=https://github.com/Kokosnootje92/qgis-attribute-searcher/issues
 
-repository=http://repo
+repository=https://github.com/Kokosnootje92/qgis-attribute-searcher
 
 # End of mandatory metadata
 
