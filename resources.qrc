@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/AttributeSearcher" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

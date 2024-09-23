@@ -1,0 +1,76 @@
+<ui version="4.0">
+ <class>AttributeSearcherDockWidget</class>
+ <widget class="QDockWidget" name="AttributeSearcherDockWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AttributeSearcher</string>
+  </property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QComboBox" name="comboBox_attribute">
+      <property name="toolTip">
+       <string>Selecteer het attribuutveld</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_search_id">
+      <property name="placeholderText">
+       <string>Fill in ID...</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_search">
+      <property name="text">
+       <string>Search</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_found_value">
+      <property name="text">
+       <string>Last Found: </string>
+      </property>
+      <property name="toolTip">
+       <string>Displays the last found value</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_lock_layer">
+      <property name="text">
+       <string>Lock Layer</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string>Lock or unlock the selected layer</string>
+      </property>
+     </widget>
+    </item>
+	<item>
+	 <widget class="QLabel" name="labelLayerName">
+	  <property name="text">
+	   <string>No active layer selected.</string>
+	  </property>
+	  <property name="toolTip">
+	   <string>Displays the name of the current active layer</string>
+	  </property>
+	 </widget>
+	</item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
